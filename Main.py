@@ -1,5 +1,5 @@
 import paramiko
-
+import sys
 # Remote machine details
 command = sys.argv[1]
 hostname = sys.argv[2]  # Remote machine's IP address
